@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10292A8A-5E98-230E-1939-60C5DD2947C8" name="PENSION">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>7FBA9868-5B60-619A-0BD5-DFF438AA8F0E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRENSION" id="21ED9D40-F9ED-81CA-5A27-105247E69E3D">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>3F9F7C8F-8852-A972-4C21-DD28121602A0</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT_PENSION" id="422E4DB5-3A7E-2FE0-C37B-5BC0BDFAC5C4">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>408ABDBB-F419-7FD8-1C0F-64AF2EE3E71B</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FONDO" id="04697EF1-619C-DE4D-EA9F-8E961E7FBD43">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>DE793073-34A9-8151-FC86-1A6A5D19152E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="7E8BB942-C1E3-3732-E22B-1B9B361A4717">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>1CBD165D-C486-4C6B-22B5-921A5E82F0A8</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57E00351-44B8-82ED-0E03-885A1FBE112C" name="PENSION_PK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>2E226545-8F98-AC58-5873-06A0FB36E5CE</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21ED9D40-F9ED-81CA-5A27-105247E69E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

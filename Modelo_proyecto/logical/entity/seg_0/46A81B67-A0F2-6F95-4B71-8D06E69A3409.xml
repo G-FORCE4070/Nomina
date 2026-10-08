@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46A81B67-A0F2-6F95-4B71-8D06E69A3409" name="CAJA_COMPENSACION">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:29:08 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIT_CAJA" id="0854B149-63BA-64E5-49C7-F856D0E55318">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:29:22 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CAJA" id="C77C6B5B-81DE-AAA1-DD9C-4483A18769D4">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:29:37 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58CBF63B-BE15-7C78-7C88-69C9671EDCA0" name="CAJA_COMPENSACION PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:29:36 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0854B149-63BA-64E5-49C7-F856D0E55318</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

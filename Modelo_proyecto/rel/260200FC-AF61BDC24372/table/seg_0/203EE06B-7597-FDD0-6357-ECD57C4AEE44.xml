@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="203EE06B-7597-FDD0-6357-ECD57C4AEE44" name="CAJA_COMPENSACION">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>46A81B67-A0F2-6F95-4B71-8D06E69A3409</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT_CAJA" id="DD23D1E6-46BC-A67F-95AA-243B7CD95FA5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>0854B149-63BA-64E5-49C7-F856D0E55318</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CAJA" id="5B34F7CB-6707-526D-E779-85CA88B196CD">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>C77C6B5B-81DE-AAA1-DD9C-4483A18769D4</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FA63D11-FBD9-FF18-BBDA-2BA6AF67C0E0" name="CAJA_COMPENSACION_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>58CBF63B-BE15-7C78-7C88-69C9671EDCA0</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD23D1E6-46BC-A67F-95AA-243B7CD95FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

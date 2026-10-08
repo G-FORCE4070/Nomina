@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEGURIDAD_CAJA" directorySegmentName="seg_0" id="E15C9E4B-D948-CAA6-C4B2-42DB7FA8CAD4">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:32:09 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<targetPk>58CBF63B-BE15-7C78-7C88-69C9671EDCA0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>46A81B67-A0F2-6F95-4B71-8D06E69A3409</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="APORTE_CAJA" id="777ED578-0989-EBED-96AE-00E0457835DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:38:39 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

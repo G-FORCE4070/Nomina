@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97179FE5-132E-28AB-1353-B5284176222B" name="CAJA_COMPENSACION">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>46A81B67-A0F2-6F95-4B71-8D06E69A3409</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CAJA" id="A8136865-2233-CCF3-BDF0-8FD9750B1E79">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>38DDA335-DBCC-5D9E-6FB0-33109DEB995B</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT_CAJA" id="EF680705-CE92-DEC4-F73A-7664122E4D13">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>0854B149-63BA-64E5-49C7-F856D0E55318</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CAJA" id="201D942B-FA5C-7BFD-BAC9-61356DECE24A">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>C77C6B5B-81DE-AAA1-DD9C-4483A18769D4</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_APORTE" id="EFC6EF7B-6C04-AEE5-0434-E2C3DCC55114">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>FC8F6AD8-BD17-104B-0B2B-7EA9A1B49225</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E20FF58-0D50-ECF0-43EC-5C31C34D533A" name="CAJA_COMPENSACION_PK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>58CBF63B-BE15-7C78-7C88-69C9671EDCA0</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8136865-2233-CCF3-BDF0-8FD9750B1E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

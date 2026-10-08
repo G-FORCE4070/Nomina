@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="126E0DC9-1DB8-0D8D-5016-FCD3B0369EF3" name="CONTRATO">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:05:13 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONTRATO" id="E8517327-30EB-E1AC-4BE0-9355120D811C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:05:25 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIO" id="B5CB6457-E112-980B-F5A0-454FE4476302">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:05:30 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_CONTRATO" id="D9994E3A-5003-A72C-3E87-EA1D1293B154">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LIQUIDACION" id="C8065959-B9DA-98B7-251A-E38DF96CBF4D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:52:37 UTC</createdTime>
+<generatorID>6777F6A0-6B45-10F8-E2EF-CB038DBA4051</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<referedAttribute>A2AED2AF-D837-2A17-45AB-09417762F5AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PERSONA" id="8C821440-4B5B-2534-CD4E-64ADF00CA7FA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 02:38:32 UTC</createdTime>
+<generatorID>F8FF548D-2109-4E95-46E1-A30A353445FA</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<referedAttribute>DCB212AD-45A9-8D6B-9617-F289E08A5827</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CD0F8A8-42E7-201F-B255-354E6ED91204" name="CONTRATO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:05:41 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8517327-30EB-E1AC-4BE0-9355120D811C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

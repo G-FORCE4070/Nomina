@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C667BB39-DE95-F4F2-4120-3DC57BDE93C0" name="NOMINA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>2ECAF590-D133-AD14-1B45-E2F61DD7E03C</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOMINA" id="B10C3806-64BB-4415-2702-74830A58FB8D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>00673159-7443-5B7E-BFA6-767132527D0B</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_BASE" id="6D77A641-B3C7-72F7-E29A-2553B2DBC832">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>AB2DCD79-8FBF-D6D5-A4F8-5237788C704E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PAGO" id="D40ACD58-92BB-50D6-6FCD-46C0BA429C61">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>927E2FDB-1C6F-731D-FC26-B6832EBCA6A5</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_NETO" id="E0FFFB33-DB50-BB58-B316-718510611A05">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>D9973393-6469-FE2B-AE7C-40527A2265D6</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4AEA308-EA0B-6508-CFB4-9B4C94728734" name="NOMINA_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>2C5D0AC8-B74F-F73E-D54F-18207A3DD823</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B10C3806-64BB-4415-2702-74830A58FB8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

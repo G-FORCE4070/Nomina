@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5938140-C6C1-07AF-AB55-7646FE5FC63C" name="CONTRATO">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>126E0DC9-1DB8-0D8D-5016-FCD3B0369EF3</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTRATO" id="B10C1844-48F2-604A-32D7-B3091B8E55F5">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>E8517327-30EB-E1AC-4BE0-9355120D811C</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="A10E2DBE-FA00-20DD-6DEE-BF2C38B7B619">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>B5CB6457-E112-980B-F5A0-454FE4476302</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_CONTRATO" id="15179613-751A-5D13-B669-57FC84C58B21">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>D9994E3A-5003-A72C-3E87-EA1D1293B154</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIQUIDACION_DEFINITIVA_ID_LIQUIDACION" id="072C70CC-EB8E-3BA4-9478-78B4D1638754">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>C8065959-B9DA-98B7-251A-E38DF96CBF4D</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE0D4E85-64CE-AC32-78BB-1D4133DABAF8" referredColumn="2D9F95E6-98FF-C46B-8B43-6580FBE06A16"/>
+</associations>
+</Column>
+<Column name="PERSONA_ID_PERSONA" id="D613C91F-7ED6-408B-80A6-BA1ADEEE1B2A">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>8C821440-4B5B-2534-CD4E-64ADF00CA7FA</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8166128-EBBB-F28F-D86A-749B39AAB621" referredColumn="392E7A4D-DFB7-4430-0854-96ABE1E19DC2"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="7DEC7CFB-83C6-B1AC-A304-7A5AF57D6527">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>5DE0DF63-B7B1-14BB-F9DB-879117719459</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>F8166128-EBBB-F28F-D86A-749B39AAB621</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CFC6FFB-CA1C-24E2-272D-7C305AEACEF6" name="CONTRATO_PK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>9CD0F8A8-42E7-201F-B255-354E6ED91204</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B10C1844-48F2-604A-32D7-B3091B8E55F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E547B406-B824-93D5-40D2-128C8CBC452D" name="CONTRATO__IDX">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6777F6A0-6B45-10F8-E2EF-CB038DBA4051</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="072C70CC-EB8E-3BA4-9478-78B4D1638754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3C35653-E852-8032-06DC-DD0A3D56BFB6" name="CONTRATO_LIQUIDACION_DEFINITIVA_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>6777F6A0-6B45-10F8-E2EF-CB038DBA4051</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072C70CC-EB8E-3BA4-9478-78B4D1638754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4561C5F4-AD6B-CC75-2F99-C2716228B274" name="CONTRATO_PERSONA_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>F8FF548D-2109-4E95-46E1-A30A353445FA</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D613C91F-7ED6-408B-80A6-BA1ADEEE1B2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

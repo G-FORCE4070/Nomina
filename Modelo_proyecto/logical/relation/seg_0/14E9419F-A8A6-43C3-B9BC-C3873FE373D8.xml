@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEGURIDAD_PENSION" directorySegmentName="seg_0" id="14E9419F-A8A6-43C3-B9BC-C3873FE373D8">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:55:47 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<targetPk>2E226545-8F98-AC58-5873-06A0FB36E5CE</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7FBA9868-5B60-619A-0BD5-DFF438AA8F0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="APORTE_PENSION" id="C0F9457C-2F06-FEA3-5E0C-9DE101ECE602">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:56:05 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

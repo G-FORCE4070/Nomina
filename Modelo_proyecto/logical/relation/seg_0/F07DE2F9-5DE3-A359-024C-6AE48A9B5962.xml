@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BONIFICACION_NOMINA" directorySegmentName="seg_0" id="F07DE2F9-5DE3-A359-024C-6AE48A9B5962">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:18:24 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="62618BD8-BD69-45A9-8971-4C76D106838E" value="true"/>
+</engineerTo>
+<sourcePk>2C5D0AC8-B74F-F73E-D54F-18207A3DD823</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2ECAF590-D133-AD14-1B45-E2F61DD7E03C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60C857E3-9B0C-55B1-4C37-16902910013F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F77337A1-448D-B426-F9EE-C939C0DCDF44" containerWithKeyObject="87D5EBB4-9A41-05F6-C374-6EDF14EE5215" localFKIndex="90AFB35D-E076-B2ED-F029-ABDDA33CF5CD" name="BONIFICACION_NOMINA_NOMINA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>F07DE2F9-5DE3-A359-024C-6AE48A9B5962</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>NOMINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D36AC4F-E3B3-24FB-2EB1-C04838759375</referredTableID>
+<keyObject>A61FD3FA-8D3F-DE23-CFEF-3833B4E224EC</keyObject>
+<referredKeyID>A61FD3FA-8D3F-DE23-CFEF-3833B4E224EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_NOMINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

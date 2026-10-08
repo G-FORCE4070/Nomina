@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE3DFA02-60B5-D498-8B94-9729C0DBC39F" containerWithKeyObject="6774CD6A-346C-FAFB-FBFA-4A8043EABB6B" localFKIndex="5AC37A89-9292-9D82-E25B-54F7CF3ABB0E" name="SEGURIDAD_SOCIAL_ARL_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>9DAF35FD-F394-B9D0-2B8E-0DBA6408E37E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>ARL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBF96867-F00C-BB93-EF59-FBB4D45DBFBD</referredTableID>
+<keyObject>796B0BF8-C217-4422-08DE-AA17893FF4C5</keyObject>
+<referredKeyID>796B0BF8-C217-4422-08DE-AA17893FF4C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT_ARL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

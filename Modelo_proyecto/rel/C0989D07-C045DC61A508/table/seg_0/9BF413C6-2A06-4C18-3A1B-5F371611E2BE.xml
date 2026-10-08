@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BF413C6-2A06-4C18-3A1B-5F371611E2BE" name="BONIFICACION_NOMINA">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMINA_ID_NOMINA" id="5D6D512E-2855-BDEC-8162-B6F508369FF2">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AF50308-2984-3760-F26A-E2C3B5160958" referredColumn="513BDB82-34C7-A19A-7838-9FD3C7293F53"/>
+</associations>
+</Column>
+<Column name="BONIFICACION_ID_BONIFICACION" id="C287E9F6-A259-5A87-5B26-CAD8E1B4A8DD">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA28ECB4-019A-8643-53EC-531507D198ED" referredColumn="4D17061B-3778-A802-EC53-3E95E11AFC73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33B80F84-1B5E-B171-AD3D-E30DD14AC35D" name="BONIFICACION_NOMINA_PK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6D512E-2855-BDEC-8162-B6F508369FF2"/>
+<colUsage columnID="C287E9F6-A259-5A87-5B26-CAD8E1B4A8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="226C021C-6BFD-5F81-F060-0F6A95B1E4E6" name="BONIFICACION_NOMINA_NOMINA_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>F07DE2F9-5DE3-A359-024C-6AE48A9B5962</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6D512E-2855-BDEC-8162-B6F508369FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B26F5E15-0D7D-EE3B-7C12-8038536A2A2A" name="BONIFICACION_NOMINA_BONIFICACION_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>F07DE2F9-5DE3-A359-024C-6AE48A9B5962</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C287E9F6-A259-5A87-5B26-CAD8E1B4A8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

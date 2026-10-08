@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5654CB92-25C6-39ED-EB28-B04BC40ABD66" name="LIQUIDACION_DEFINITIVA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:49:30 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LIQUIDACION" id="A2AED2AF-D837-2A17-45AB-09417762F5AF">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:49:39 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR_INDEMNIZACION" id="372014ED-8B2E-33B5-2174-67BC83C0FAE6">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:49:45 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_LIQUIDACION" id="D4437504-DB2A-3332-F3C9-BE4EB41065B6">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:49:57 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VACACIONES_PENDIENTES" id="E03D8B93-10D5-2FCF-0B0F-BBC8D9863800">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:50:30 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIMA_PROPORCIONAL" id="D3BD9180-D4C2-B93B-22CF-B265989890FC">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:51:12 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO_PENDIENTE" id="DD89B07B-0EFF-BC38-0478-CB378671108C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:51:33 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_LIQUIDACION" id="E185BE13-0A23-EEFA-B1F5-BB28EA3A3C6D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:51:52 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDBA4A62-7D32-7F4F-36F9-DBB4024B2A31" name="LIQUIDACION_DEFINITIVA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:52:14 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="7DA2EA93-6B4E-C309-D30A-243066306280" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2AED2AF-D837-2A17-45AB-09417762F5AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

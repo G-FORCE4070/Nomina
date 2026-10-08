@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68C7F152-85C1-20DD-0963-337B39D29753" name="PRESTACION_SOCIAL">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:41:03 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRESTACION" id="787F3E92-A19B-F351-FB33-C927C91374A8">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:41:18 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR_CESANTIA" id="72085D4A-E786-1B50-194C-88956F2C2C17">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:41:30 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INTERES" id="C86429C0-9913-B26C-53FB-E11E448C6C56">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:42:03 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR_PRIMA" id="012BE1CB-2FB8-F32A-12B3-50EBB2DB3237">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:42:26 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAS_VACACIONES" id="10C8AC04-A129-A795-620F-BE474BAA5B42">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:42:51 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_LIQUIDACION" id="5C6D6750-922D-74FE-E572-44BE1C595865">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:43:25 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONTRATO" id="7E589D98-832E-FC48-91D6-A7A579E13546">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 08:03:03 UTC</createdTime>
+<generatorID>4AD1957F-65EC-651E-7D91-A3C0C2A93EC3</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8517327-30EB-E1AC-4BE0-9355120D811C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="080C867E-BCA8-30DB-F829-C954C2C00F96" name="PRESTACION_SOCIAL PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:41:29 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>787F3E92-A19B-F351-FB33-C927C91374A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

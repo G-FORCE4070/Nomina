@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6F5FAA9-FF30-F358-90F4-E15EAB5FEC12" containerWithKeyObject="D8116509-2DF3-905B-2E4C-C0518D721F48" localFKIndex="A200FEB6-7E5A-6C37-8720-FCCC34E9D691" name="SEGURIDAD_SOCIAL_EPS_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>5441EED2-BFAF-EA47-7C2C-6DC51CC74ED9</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>EPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFB65715-708C-1A4E-2431-789EFF0FAF45</referredTableID>
+<keyObject>A75C51B1-D2FC-506D-8D92-ECC5C47FC19B</keyObject>
+<referredKeyID>A75C51B1-D2FC-506D-8D92-ECC5C47FC19B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EPS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

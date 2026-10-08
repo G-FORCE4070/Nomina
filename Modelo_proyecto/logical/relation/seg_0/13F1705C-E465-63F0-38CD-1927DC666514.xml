@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEDUCCION_NOMINA" directorySegmentName="seg_0" id="13F1705C-E465-63F0-38CD-1927DC666514">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:36:54 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="62618BD8-BD69-45A9-8971-4C76D106838E" value="true"/>
+</engineerTo>
+<sourcePk>2C5D0AC8-B74F-F73E-D54F-18207A3DD823</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2ECAF590-D133-AD14-1B45-E2F61DD7E03C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87C565DB-9A75-FFD8-9641-49C46FF813FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

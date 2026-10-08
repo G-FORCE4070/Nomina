@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEGURIDAD_ARL" directorySegmentName="seg_0" id="9DAF35FD-F394-B9D0-2B8E-0DBA6408E37E">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:32:04 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<targetPk>0F3883CA-FA61-2F1F-F114-8710D00F85B6</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D73408F1-53D7-300A-1D94-7EBD9E9F2A6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="APORTE_ARL" id="B52419DB-0985-879B-C3A2-54893E1FF1C4">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:37:35 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

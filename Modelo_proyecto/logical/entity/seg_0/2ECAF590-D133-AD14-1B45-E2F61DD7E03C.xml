@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ECAF590-D133-AD14-1B45-E2F61DD7E03C" name="NOMINA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:13:11 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NOMINA" id="00673159-7443-5B7E-BFA6-767132527D0B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:13:17 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO_BASE" id="AB2DCD79-8FBF-D6D5-A4F8-5237788C704E">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:13:31 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_PAGO" id="927E2FDB-1C6F-731D-FC26-B6832EBCA6A5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:37:59 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO_NETO" id="D9973393-6469-FE2B-AE7C-40527A2265D6">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:39:21 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONTRATO" id="988B650A-4BA7-23F7-8D0A-447EDE7F637B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-21 19:37:35 UTC</createdTime>
+<generatorID>4EEE9BE5-49C3-B8F8-6390-79BB8147D8A2</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8517327-30EB-E1AC-4BE0-9355120D811C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C5D0AC8-B74F-F73E-D54F-18207A3DD823" name="NOMINA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:13:30 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EE47663B-67A1-B9A4-0E5D-24969426CCF0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00673159-7443-5B7E-BFA6-767132527D0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

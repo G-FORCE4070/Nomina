@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB3927BA-DD60-7FAE-F8B7-317BD2428008" name="EPS">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:24:11 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIT_EPS" id="EFC3F9E3-3AB8-638D-2420-2737C843C4B6">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:24:15 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_EPS" id="131C52C2-03A1-751F-AEAE-DF689A54F9E3">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:24:18 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A29B6E9C-3139-2317-2975-989AB53B1611" name="EPS PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:26:12 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFC3F9E3-3AB8-638D-2420-2737C843C4B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEGURIDAD_EPS" directorySegmentName="seg_0" id="5441EED2-BFAF-EA47-7C2C-6DC51CC74ED9">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:31:24 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<targetPk>A29B6E9C-3139-2317-2975-989AB53B1611</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CB3927BA-DD60-7FAE-F8B7-317BD2428008</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="APORTE_EPS" id="253289A6-227E-197C-6A45-106E1498B933">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:33:57 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

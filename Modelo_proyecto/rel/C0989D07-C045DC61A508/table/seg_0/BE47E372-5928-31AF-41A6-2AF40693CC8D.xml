@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE47E372-5928-31AF-41A6-2AF40693CC8D" name="SEGURIDAD_SOCIAL">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_PAGO" id="A90B8127-64A8-62A3-8BCE-91F10639F41D">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>E846FF06-0D8C-57F2-993C-FEA71712F3A1</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_ID_ARL" id="9D6C426B-0ADB-9783-B321-A9F49FBCDD82">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>30ACC18D-934A-27EE-8651-D473F44E7BE3</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="086BD981-5BDB-DCC6-E3A6-4F07EF6DCD36" referredColumn="060D378C-235A-F15E-937E-DB923395A374"/>
+</associations>
+</Column>
+<Column name="EPS_ID_EPS" id="9CBA3909-C13F-9325-8A40-20C7B56C7B54">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>21D5C2DB-F701-7862-B5E0-D6A5C28CE621</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4E18FE7-4CE6-9AFC-7299-65151D8028C7" referredColumn="6DD76174-3318-3E91-11A7-511DC97E3171"/>
+</associations>
+</Column>
+<Column name="PENSION_ID_PRENSION" id="E68FD1B7-1122-8094-FEC8-D7AC3EAD29D3">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>1B258758-A2E0-9CE5-A007-79694BA06561</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="236CF85B-9019-9A65-8679-11AF5009495A" referredColumn="21ED9D40-F9ED-81CA-5A27-105247E69E3D"/>
+</associations>
+</Column>
+<Column name="CAJA_COMPENSACION_ID_CAJA" id="BE4F18BF-ED98-D145-E8B9-D3DE08B90AC8">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>17E6F47D-3474-6598-0D9F-9D85BA7CF8CC</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44D415F-995D-2109-0588-A5DDBE615331" referredColumn="A8136865-2233-CCF3-BDF0-8FD9750B1E79"/>
+</associations>
+</Column>
+<Column name="SEGURIDAD_SOCIAL_ID" id="BABD41F7-5A06-AEA0-025D-C243B3DB8004">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PERSONA_ID_PERSONA" id="2BC69A9A-4948-A1E0-1EE1-B1EDBF51DA52">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 00:46:51 UTC</createdTime>
+<generatorID>E59651C8-9A8B-C861-0296-6E35874A805D</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95CBE579-4C09-DD29-C2F5-F149846CEA32" referredColumn="392E7A4D-DFB7-4430-0854-96ABE1E19DC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D90DD7D-E879-02E5-5DFF-9A651DF51A01" name="SEGURIDAD_SOCIAL_PK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BABD41F7-5A06-AEA0-025D-C243B3DB8004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D98FC61D-2604-5BAD-5A47-417817B82FFF" name="SEGURIDAD_SOCIAL__IDX">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DAF35FD-F394-B9D0-2B8E-0DBA6408E37E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9D6C426B-0ADB-9783-B321-A9F49FBCDD82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41BFE7B8-63D7-CFE3-AD82-757A3A812CFA" name="SEGURIDAD_SOCIAL__IDXv1">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E15C9E4B-D948-CAA6-C4B2-42DB7FA8CAD4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BE4F18BF-ED98-D145-E8B9-D3DE08B90AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A974415-1310-9313-C41F-4979BAE636E2" name="SEGURIDAD_SOCIAL__IDXv2">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5441EED2-BFAF-EA47-7C2C-6DC51CC74ED9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9CBA3909-C13F-9325-8A40-20C7B56C7B54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11E305F-A60E-1228-EEA4-69B0F3093D6D" name="SEGURIDAD_SOCIAL__IDXv3">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>15834CC8-16E7-8154-39A8-FEECD4EF7D4A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E68FD1B7-1122-8094-FEC8-D7AC3EAD29D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64C257BD-68D8-C739-4ED2-E34B547DDEF6" name="SEGURIDAD_SOCIAL_ARL_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>9DAF35FD-F394-B9D0-2B8E-0DBA6408E37E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6C426B-0ADB-9783-B321-A9F49FBCDD82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F09FAC3-538D-5A4D-BB3F-11BF3F8BC56B" name="SEGURIDAD_SOCIAL_CAJA_COMPENSACION_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>E15C9E4B-D948-CAA6-C4B2-42DB7FA8CAD4</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE4F18BF-ED98-D145-E8B9-D3DE08B90AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C76EBCF3-8B1A-699F-A732-6886F247698F" name="SEGURIDAD_SOCIAL_EPS_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>5441EED2-BFAF-EA47-7C2C-6DC51CC74ED9</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBA3909-C13F-9325-8A40-20C7B56C7B54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87A37E25-0D32-9100-F87C-6E43C2858F45" name="SEGURIDAD_SOCIAL_PENSION_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>15834CC8-16E7-8154-39A8-FEECD4EF7D4A</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E68FD1B7-1122-8094-FEC8-D7AC3EAD29D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5641B29-C64B-3688-1D22-F3D123D449AF" name="SEGURIDAD_SOCIAL_PERSONA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 00:46:51 UTC</createdTime>
+<generatorID>E1BEE092-C8F7-7953-66F4-5B32297B83B3</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC69A9A-4948-A1E0-1EE1-B1EDBF51DA52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

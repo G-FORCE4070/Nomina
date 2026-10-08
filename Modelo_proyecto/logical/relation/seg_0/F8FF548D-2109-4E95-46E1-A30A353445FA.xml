@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_PERSONA" directorySegmentName="seg_0" id="F8FF548D-2109-4E95-46E1-A30A353445FA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:08:55 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="62618BD8-BD69-45A9-8971-4C76D106838E" value="true"/>
+</engineerTo>
+<sourcePk>6302BD03-F27B-35E0-326A-BB2126C04A80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A2CAF05-CB6B-722F-3C79-F97EB89875F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>126E0DC9-1DB8-0D8D-5016-FCD3B0369EF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ESTADO" id="5DE0DF63-B7B1-14BB-F9DB-879117719459">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:33:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="62618BD8-BD69-45A9-8971-4C76D106838E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_PRESTACION" directorySegmentName="seg_0" id="4AD1957F-65EC-651E-7D91-A3C0C2A93EC3">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:46:37 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="C0989D07-30DD-4ADD-B0FE-C045DC61A508" value="true"/>
+</engineerTo>
+<sourcePk>9CD0F8A8-42E7-201F-B255-354E6ED91204</sourcePk>
+<targetPk>080C867E-BCA8-30DB-F829-C954C2C00F96</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>126E0DC9-1DB8-0D8D-5016-FCD3B0369EF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68C7F152-85C1-20DD-0963-337B39D29753</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

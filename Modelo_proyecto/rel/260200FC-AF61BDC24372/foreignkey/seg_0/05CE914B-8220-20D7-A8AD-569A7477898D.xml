@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05CE914B-8220-20D7-A8AD-569A7477898D" containerWithKeyObject="25688585-C954-0ED2-4A24-9F7E9AB69A45" localFKIndex="462D6588-EDA9-A338-7B2C-F712994050A4" name="CONTRATO_LIQUIDACION_DEFINITIVA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>6777F6A0-6B45-10F8-E2EF-CB038DBA4051</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>LIQUIDACION_DEFINITIVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B3059AB-2334-495B-2EEF-9DC1D3B68CEA</referredTableID>
+<keyObject>2DB7F49F-F5E3-FC95-7E8F-B459080AAF62</keyObject>
+<referredKeyID>2DB7F49F-F5E3-FC95-7E8F-B459080AAF62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LIQUIDACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

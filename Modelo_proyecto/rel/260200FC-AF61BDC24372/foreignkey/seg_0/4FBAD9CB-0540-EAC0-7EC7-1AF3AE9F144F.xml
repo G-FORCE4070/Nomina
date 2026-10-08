@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FBAD9CB-0540-EAC0-7EC7-1AF3AE9F144F" containerWithKeyObject="6774CD6A-346C-FAFB-FBFA-4A8043EABB6B" localFKIndex="7AD8F6A9-C949-6444-4D47-0289C2929E01" name="SEGURIDAD_SOCIAL_CAJA_COMPENSACION_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:57:23 UTC</createdTime>
+<generatorID>E15C9E4B-D948-CAA6-C4B2-42DB7FA8CAD4</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>CAJA_COMPENSACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>203EE06B-7597-FDD0-6357-ECD57C4AEE44</referredTableID>
+<keyObject>8FA63D11-FBD9-FF18-BBDA-2BA6AF67C0E0</keyObject>
+<referredKeyID>8FA63D11-FBD9-FF18-BBDA-2BA6AF67C0E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT_CAJA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

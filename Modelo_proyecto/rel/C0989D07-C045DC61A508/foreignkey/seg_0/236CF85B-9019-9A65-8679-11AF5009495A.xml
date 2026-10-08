@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="236CF85B-9019-9A65-8679-11AF5009495A" containerWithKeyObject="BE47E372-5928-31AF-41A6-2AF40693CC8D" localFKIndex="87A37E25-0D32-9100-F87C-6E43C2858F45" name="SEGURIDAD_SOCIAL_PENSION_FK">
+<createdBy>compu</createdBy>
+<createdTime>2025-05-24 02:00:27 UTC</createdTime>
+<generatorID>15834CC8-16E7-8154-39A8-FEECD4EF7D4A</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<referredTableLongName>PENSION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10292A8A-5E98-230E-1939-60C5DD2947C8</referredTableID>
+<keyObject>57E00351-44B8-82ED-0E03-885A1FBE112C</keyObject>
+<referredKeyID>57E00351-44B8-82ED-0E03-885A1FBE112C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PRENSION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

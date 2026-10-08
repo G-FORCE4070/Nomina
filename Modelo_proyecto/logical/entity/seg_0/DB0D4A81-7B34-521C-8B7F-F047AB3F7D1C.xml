@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB0D4A81-7B34-521C-8B7F-F047AB3F7D1C" name="SEGURIDAD_SOCIAL">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:22:43 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA_PAGO" id="E846FF06-0D8C-57F2-993C-FEA71712F3A1">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-18 05:53:27 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PERSONA" id="E59651C8-9A8B-C861-0296-6E35874A805D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 00:46:43 UTC</createdTime>
+<generatorID>E1BEE092-C8F7-7953-66F4-5B32297B83B3</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DCB212AD-45A9-8D6B-9617-F289E08A5827</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_EPS" id="EE3E6E8B-0765-D979-0D09-197072F3AE6B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:33:51 UTC</createdTime>
+<generatorID>5441EED2-BFAF-EA47-7C2C-6DC51CC74ED9</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<referedAttribute>EFC3F9E3-3AB8-638D-2420-2737C843C4B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_CAJA" id="AE78B85C-F022-F9E0-0516-FE8335EE353C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:34:32 UTC</createdTime>
+<generatorID>E15C9E4B-D948-CAA6-C4B2-42DB7FA8CAD4</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<referedAttribute>0854B149-63BA-64E5-49C7-F856D0E55318</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_ARL" id="B7040E47-E08A-4345-A8A2-BE08B7D196A2">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:36:39 UTC</createdTime>
+<generatorID>9DAF35FD-F394-B9D0-2B8E-0DBA6408E37E</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<referedAttribute>E646D94A-CC22-3651-F763-9FBDF47A9512</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_PENSION" id="C408E313-56BD-A6A0-DB03-301412280039">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-25 06:56:18 UTC</createdTime>
+<generatorID>14E9419F-A8A6-43C3-B9BC-C3873FE373D8</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<engineerTo>
+<item key="260200FC-3AE2-BDF3-CC77-AF61BDC24372" value="true"/>
+</engineerTo>
+<referedAttribute>408ABDBB-F419-7FD8-1C0F-64AF2EE3E71B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

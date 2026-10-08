@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A04AFBF0-2CC3-2521-4FF6-78E61F7A4BB3" name="DEDUCCION_NOMINA">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMINA_ID_NOMINA" id="D718BC1D-138F-9C0B-C3D7-D83995C02605">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A1832AD-7770-8C4C-9552-3C42D3062EE7" referredColumn="B10C3806-64BB-4415-2702-74830A58FB8D"/>
+</associations>
+</Column>
+<Column name="DEDUCCION_ID_DEDUCCION" id="7DA0F43E-8239-7407-E47E-23FA90DF2A0B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4393797-87CF-9E30-D376-3A30CA70758B" referredColumn="DBD0A314-94C4-5D6A-41F7-AFC9B5A3FC96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70107D4E-EFD9-2285-4F7B-9DFAB6A0A34E" name="DEDUCCION_NOMINA_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D718BC1D-138F-9C0B-C3D7-D83995C02605"/>
+<colUsage columnID="7DA0F43E-8239-7407-E47E-23FA90DF2A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="290F27FE-C096-8E7D-8513-4A37161DDAB6" name="DEDUCCION_NOMINA_NOMINA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>13F1705C-E465-63F0-38CD-1927DC666514</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D718BC1D-138F-9C0B-C3D7-D83995C02605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15E058C8-B21D-E771-A851-B6C522F205B9" name="DEDUCCION_NOMINA_DEDUCCION_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-05-20 06:22:46 UTC</createdTime>
+<generatorID>13F1705C-E465-63F0-38CD-1927DC666514</generatorID>
+<ownerDesignName>Modelo_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA0F43E-8239-7407-E47E-23FA90DF2A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
